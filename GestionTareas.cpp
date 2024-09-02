@@ -141,7 +141,7 @@ public:
             Usuario& usuario = buscarORegistrarUsuario(itTarea->usuario);
             usuario.agregarPuntos(itTarea->puntosRecompensa);
             usuario.agregarRecompensa(itTarea->recompensa);
-            cout << "Tarea completada por " << usuario.nombre << "! Ha ganado " << itTarea->puntosRecompensa << " puntos y la recompensa: " << itTarea->recompensa << endl;
+            cout << "Tarea completada por " << usuario.nombre << ":D! Ha ganado " << itTarea->puntosRecompensa << " puntos y la recompensa: " << itTarea->recompensa << endl;
             tareas.erase(itTarea); // Eliminar tarea completada
         } else {
             cout << "Tarea no encontrada." << endl;
@@ -210,7 +210,7 @@ public:
             archivo.close();
             cout << "Datos cargados correctamente desde " << nombreArchivo << endl;
         } else {
-            cout << "Error al abrir el archivo para cargar datos." << endl;
+            cout << "Error al abrir el archivo para cargar datos :c." << endl;
         }
     }
 };
@@ -226,7 +226,7 @@ int main() {
         cout << "\n--- Menu de la Plataforma ---\n";
         cout << "1. Registrar una nueva tarea\n";
         cout << "2. Revisar tareas pendientes\n";
-        cout << "3. Completar una tarea\n";
+        cout << "3. Completar una tarea :b\n";
         cout << "4. Revisar puntos y recompensas\n";
         cout << "5. Guardar y salir\n";
         cout << "Seleccione una opcion: ";
@@ -272,7 +272,7 @@ int main() {
                 break;
             }
             default: {
-                cout << "Opcion no valida. Intente de nuevo.\n";
+                cout << "Opcion no válida :(. Intenta de nuevo.\n";
                 break;
             }
         }
