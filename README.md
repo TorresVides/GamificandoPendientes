@@ -2,6 +2,7 @@
 Una plataforma que utiliza elementos de juego para motivar a las personas, estableciendo desafíos, recompensas y reconocimiento por alcanzar objetivos.
 Descripción
 Este programa es una plataforma para gestionar tareas, recompensas y usuarios. Permite registrar tareas con un código único, asignar recompensas y puntos, y gestionar la información de los usuarios que completan las tareas. La información se guarda en un archivo y se puede cargar y guardar según sea necesario.
+Siempre 'guardar y salir' con '5' para que se genere el archivo de salida.
 
 Funcionalidades
 Registrar Tareas: Permite agregar nuevas tareas con una descripción, puntos de recompensa, recompensa y tema. También se puede especificar el usuario que completará la tarea.
