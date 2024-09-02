@@ -12,16 +12,6 @@ Guardar y Cargar Datos: Los datos se pueden guardar en un archivo y cargar desde
 Instrucciones de Uso
 Compilación: Compila el programa usando un compilador C++. Por ejemplo, con g++:
 
-bash
-Copy code
-g++ -o plataforma plataforma.cpp
-Ejecución: Ejecuta el programa compilado:
-
-bash
-Copy code
-./plataforma
-Interacción: Utiliza el menú para interactuar con el programa:
-
 Opción 1: Registrar una nueva tarea.
 Opción 2: Revisar tareas pendientes.
 Opción 3: Completar una tarea.
